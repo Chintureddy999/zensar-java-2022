@@ -61,6 +61,9 @@ public class Car {
         Car c1 = new Car("Creta", "Hundai", "AP39JL0999", "White", 1050000, 17);
 
         System.out.println(c1);
+        Car c2 = new Car("punch", "TATA", "AP39JL1234", "White", 1052222, 19);
+    
+        System.out.println(c2);
     }
 
     
