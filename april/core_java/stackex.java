@@ -6,6 +6,7 @@ public class stackex {
        s.push(10);
        s.push(99);
        s.push(36);
+       s.push(100);
        s.pop();
        System.out.println(s.isEmpty());
        s.forEach(System.out::println);
