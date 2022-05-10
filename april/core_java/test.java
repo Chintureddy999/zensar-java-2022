@@ -22,14 +22,13 @@ public class test {
         ArrayList<String> oddLength = new ArrayList<String>();
         for (int i = 0; i < n; i++) {
             len = arr[i].length();
-            if (len % 2 == 1)
-                ;
+            if (len % 2 == 1);
             oddLength.add(arr[i]);
 
         }
         if (oddLength.size()== 0)
-            ;
-        System.out.println("Sorry Better luck next time");
+          System.out.println("Sorry Better luck next time");
+        else
         {
             Iterator<String> itr = oddLength.iterator();
             int max = 1;
