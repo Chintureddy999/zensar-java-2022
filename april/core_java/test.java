@@ -8,9 +8,10 @@ public class test {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-    
+        System.out.println("size of String");
         int n= sc.nextInt();
-
+        System.out.println();
+        System.out.println("String:");
 
         String arr[] = new String[n];
         for (int i = 0; i < n; i++)
