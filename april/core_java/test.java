@@ -21,7 +21,7 @@ public class test {
         ArrayList<String> oddLength = new ArrayList<String>();
         for (int i = 0; i < n; i++) {
             len = arr[i].length();
-            if (len % 2 == 1);
+            if (len % 2 == 1)
             oddLength.add(arr[i]);
 
         }
